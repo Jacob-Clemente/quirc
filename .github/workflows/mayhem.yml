@@ -48,7 +48,7 @@ jobs:
       - name: Start analysis
         uses: ForAllSecure/mcode-action@v1
         with:
-          tests: - file:///home/mayhem/tests
+          tests: -- file:///home/mayhem/tests
           mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
           args: --image ${{ steps.meta.outputs.tags }} --duration 300
           sarif-output: sarif
