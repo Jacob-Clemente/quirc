@@ -1,0 +1,7 @@
+project: jacob-clemente/quirc
+target: qrtest
+
+cmds:
+  - cmd: /qrtest @@
+tests:
+  - file:///home/mayhem/tests
